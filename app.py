@@ -155,7 +155,7 @@ def send_message():
 
 
 # Display the chat history
-st.title("Chat Interface")
+st.title("VortexAI")
 
 # Iterate through messages and display them in a chat format
 for message in st.session_state.messages:
