@@ -10,7 +10,7 @@ if "messages" not in st.session_state:
 	st.session_state.conversation_point = "carga_organizacion"
 	st.session_state.context = {}
 
-GEMINI_KEY = "AIzaSyBsDMtRe_EA5XcI0u5oAYkNT54bdI7dt_w"
+GEMINI_KEY = #add key here
 # Define the URL (make sure to include your actual API key at the end)
 url = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + GEMINI_KEY
 
@@ -238,7 +238,7 @@ def send_message():
 
 
 
-st.image("C:\\Users\\Camila Palomeque\\Desktop\\VortexAI\\vortex_h.png", width=400)
+st.image("vortex_h.png", width=400)
 
 st.markdown(
     """
