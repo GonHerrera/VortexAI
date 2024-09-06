@@ -10,7 +10,8 @@ if "messages" not in st.session_state:
 	st.session_state.conversation_point = "carga_organizacion"
 	st.session_state.context = {}
 
-GEMINI_KEY = #add key here
+# Agregar API key:
+GEMINI_KEY = ""
 # Define the URL (make sure to include your actual API key at the end)
 url = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + GEMINI_KEY
 
